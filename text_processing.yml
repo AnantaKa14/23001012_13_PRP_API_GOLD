@@ -1,0 +1,16 @@
+tags:
+  - name: Text Processing
+get:
+  description: Text to be processed
+parameter:
+  - name: text
+    in: formData
+    required: true
+    type: strin
+responses:
+    '200':
+      description: Successful responses
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
