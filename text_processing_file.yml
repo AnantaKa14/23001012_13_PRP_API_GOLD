@@ -1,13 +1,15 @@
 tags:
-  - name: Text Processing
+  - name: Text Processing File
 get:
-  description: Processed text
+  description: Processed file
+consume:
+  -mutlipart/form-data
 parameters:
-  - name: text
+  - name: file
     in: formData
+    description: File to upload
     required: True
-    description: Text data to process
-    type: string
+    type: file
 responses:
     '200':
       description: Successful responses

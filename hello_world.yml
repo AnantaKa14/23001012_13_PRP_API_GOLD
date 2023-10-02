@@ -1,7 +1,7 @@
 tags:
   - name: Hello World
 get:
-  description: Menyapa Hello World
+  description: Say Hello
 responses:
   '200':
     description: Successful response
